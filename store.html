@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <title>online store | webpage design</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?
+        family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap" 
+        rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+        <div class="container">
+        <div class="navbar">
+            <div class ="logo">
+                <img src="Images/images/Screenshot 2020-09-14 162416.png" width="125px">
+            </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+        <img src="Images/images/menu.png" class="menu-icon" 
+        onclick="menutoggle()">
+        </div>
+            <div class="row">
+            <div class="col-2">
+                <h1>Hey there! Welcome to the page!</h1>
+                <a href="" class="btn">Explore Now</a>
+            </div>
+                <div class="col-2">
+                <img src="Images/20190.jpg">
+            </div>
+        </div>
+    </div> 
+</div>  
+<!------featured categories------>
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="Images/images/category-1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="Images/images/category-2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="Images/images/category-3.jpg">
+                </div>
+
+            </div>
+         </div>
+    </div>
+<!------featuredproducts------>
+    <div class="small-container">
+        <h2 class="title">Featured Products </h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/images/product-1.jpg">
+                <h4>red printed t shirt</h4>
+                <p>Rs.400/-</p>
+            </div>
+                <div class="col-4">
+                    <img src="Images/images/product-2.jpg">
+                    <h4>running shoes</h4>
+                    <p>Rs.400/-</p>
+                </div>
+                    <div class="col-4">
+                        <img src="Images/images/product-3.jpg">
+                        <h4>tracks</h4>
+                        <p>Rs.400/-</p>
+                    </div>
+                        <div class="col-4">
+                            <img src="Images/images/product-4.jpg">
+                            <h4>blue t shirt</h4>
+                            <p>Rs.400/-</p>
+                        </div>
+                    </div> 
+                    <h2 class="title">Latest Products</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="Images/images/product-5.jpg">
+                            <h4>red printed t shirt</h4>
+                            <p>Rs.400/-</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="Images/images/product-6.jpg">
+                            <h4>running shoes</h4>
+                            <p>Rs.400/-</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="Images/images/product-7.jpg">
+                            <h4>tracks</h4>
+                            <p>Rs.400/-</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="Images/images/product-8.jpg">
+                            <h4>blue t shirt</h4>
+                            <p>Rs.400/-</p>
+                        </div>
+                 </div> 
+                <div class="row">
+                    <div class="col-4">
+                        <img src="Images/images/product-9.jpg">
+                        <h4>red printed t shirt</h4>
+                        <p>Rs.400/-</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="Images/images/product-10.jpg">
+                        <h4>running shoes</h4>
+                        <p>Rs.400/-</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="Images/images/product-11.jpg">
+                        <h4>tracks</h4>
+                        <p>Rs.400/-</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="Images/images/product-12.jpg">
+                        <h4>blue t shirt</h4>
+                        <p>Rs.400/-</p>
+                    </div>
+                </div> 
+
+    </div>
+<!--------offer-------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Images/images/exclusive.png" class="offer-img">
+                </div>
+            <div clas="col-2">
+                <p>Exclusively Available On Cosmic Stores</p>
+                <h1>Smart Band</h1>
+                <a href="" class="btn">Buy Now</a>
+            </div>    
+            </div>
+        </div>
+    </div>
+<!---------footer------>
+    
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Connect Us With The Social Media</h3>
+                <div class="app-logo">
+                    <img src="Images/images/app-store.png">
+                    <img src="Images/images/play-store.png">
+                </div>
+
+            </div>
+        <div class="footer-col-2">
+            <img src="Images/images/Screenshot 2020-09-14 162416.png">
+            <p>lorem</p>
+        </div>  
+    <div class="footer-col-3">
+        <h3>follow us</h3>
+        <ul>
+            <li>instagram</li>
+            <li>twitter</li>
+        </ul>
+    </div>  
+    <div class="footer-col-4">
+        <h3>contact us on</h3>
+        <ul>
+            <li>whatsapp</li>
+            <li>telegram</li>
+        </ul>
+    </div>
+        </div>
+    </div>
+</div>
+<!----js for toggle menu-->
+<script>
+    var MenuItems=document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight="0px"
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight =="0px")
+        {
+            MenuItems.style.maxHeight="200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+    </body>
+</html>
